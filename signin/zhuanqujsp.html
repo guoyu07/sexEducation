@@ -14,6 +14,7 @@
             list-style-type: none;
 
         }
+
         .navbar {
             width: 100% !important;
             background:  #679fff;
@@ -104,6 +105,40 @@
             background-size: 12px auto;
 
         }
+        .box{
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 3%;
+        }
+        .box .row a{
+          color: #000;
+          text-decoration: none;
+        }
+        .box span{
+          padding-right:6%;
+        }
+        .price{
+          color: #ff0000;
+        }
+        .text{
+          color: #ff0000;
+          font-size: 1em;
+          padding-left:4%;
+        }
+        .count{
+          font-size: 1.2em;
+        }
+        .xishus{
+          font-size: 0.8em;
+        }
+        /*.mobile{
+          display: inline-block;
+          width:1.3em;
+          height:1.4em;
+          line-height: 1.4em;
+          background-image: url('images/mobile.png');
+          background-repeat: no-repeat;
+          background-size:contain;
+        }*/
     </style>
 
 </head>
@@ -244,59 +279,24 @@
     <div class="container-fluid information " style="margin: 0 auto;">
       <h4 style="color: #337AB7;">猜你喜欢</h4>
       <div class="box" style="width:100%;float:left;">
-            <div class="container" style="width:50%;float:left;">
-                <img src="http://cdn.duitang.com/uploads/item/201209/27/20120927174050_HjNYf.jpeg" style='width:80%;height:auto;margin:0 10%;'>
+            <div class="container" style="width:48%;float:left;padding-left:0;padding-right:0;">
+                <img src="http://cdn.duitang.com/uploads/item/201209/27/20120927174050_HjNYf.jpeg" style='width:80%;height:auto;margin:0;'>
             </div>
-            <div class="container" style="width:50%;float:left">
+            <div class="container" style="width:52%;float:left;padding-left:0;padding-right:0;">
                  <div  class=" row first_column" style="text-align:left;">
                    <a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=enterCgshow&project_id=1">
-                     玛咖干果干片
+                     玛咖干果干片这是这样的么？
                    </a>
                 </div>
-                <div class="row">
-                     <a>限量让利促销| ¥59.5</a>
+                <div class="row" style="padding:4%;">
+
                 </div>
                 <div class="row">
-                       <div class="col-xs-8">已售:1102</div>
-                       <div class="col-xs-4"><a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=entercargoRemark&cargo_id=1">评</a></div>
-                </div>
-          </div>
-      </div>
-      <div class="box" style="width:100%;float:left;">
-            <div class="container" style="width:50%;float:left;">
-                <img src="http://cdn.duitang.com/uploads/item/201209/27/20120927174050_HjNYf.jpeg" style='width:80%;height:auto;margin:0 10%;'>
-            </div>
-            <div class="container" style="width:50%;float:left">
-                 <div  class=" row first_column" style="text-align:left;">
-                   <a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=enterCgshow&project_id=1">
-                     玛咖干果干片
-                   </a>
+                     <a><span class="price"><span style="font-size:1em;padding:0;"> ¥</span><span class="count">59.4</span><span class="xshu" style="padding-left:0;padding-right:0;"></span><span class="mobile"></span><span class="text">限量让利促销</span></a>
                 </div>
                 <div class="row">
-                     <a>限量让利促销| ¥59.5</a>
-                </div>
-                <div class="row">
-                       <div class="col-xs-8">已售:1102</div>
-                       <div class="col-xs-4"><a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=entercargoRemark&cargo_id=1">评</a></div>
-                </div>
-          </div>
-      </div>
-      <div class="box" style="width:100%;float:left;">
-            <div class="container" style="width:50%;float:left;">
-                <img src="http://cdn.duitang.com/uploads/item/201209/27/20120927174050_HjNYf.jpeg" style='width:80%;height:auto;margin:0 10%;'>
-            </div>
-            <div class="container" style="width:50%;float:left">
-                 <div  class=" row first_column" style="text-align:left;">
-                   <a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=enterCgshow&project_id=1">
-                     玛咖干果干片
-                   </a>
-                </div>
-                <div class="row">
-                     <a>限量让利促销| ¥59.5</a>
-                </div>
-                <div class="row">
-                       <div class="col-xs-8">已售:1102</div>
-                       <div class="col-xs-4"><a href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=entercargoRemark&cargo_id=1">评</a></div>
+                       <div class="col-xs-8" style="padding-right:0;padding-left:0;color:#817f7f;">已售:1102</div>
+                       <div class="col-xs-4" style="padding:0;"><a style="color:#817f7f;"href="/syc/IndexServlet;jsessionid=89A453AF75EBFAA7E00D5A2C7869E9A0?method=entercargoRemark&cargo_id=1">评</a></div>
                 </div>
           </div>
       </div>
@@ -319,6 +319,16 @@
         </div>
     </div>
     <!-- 页脚 -->
+    <!-- <script type="text/javascript">
+      var counts=document.getElementsByClassName('count');
+      var xshus=document.getElementsByClassName('xshu');
+      for(var i=0;i<counts.length;i++){
+            xshus[i].innerHTML=(counts[i].innerText)-Math.floor(counts[i].innerText);
+            counts[i].innerHTML=parseInt(counts[i].innerText);
 
+      }
+
+
+    </script> -->
 </body>
 </html>
