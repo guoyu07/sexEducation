@@ -7,108 +7,7 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        *{
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            font-family: Helvetica, STHeiti, Droid Sans Fallback;
-
-        }
-        .navbar {
-            width: 100% !important;
-            background:  #679fff;
-        }
-        .navbar-header .navbar-user_photo img{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            line-height: 100%;
-            margin: 2% 8% 2% 0;
-            padding: 2%;
-            vertical-align: middle;
-            background:#ffffff ;
-        }
-        .navbar-header .navbar-user_photo img:hover{
-            border: 1px solid #81E4FF;
-        }
-        .navbar-user_photo{
-          line-height: 50px;
-        }
-        .navbar-header a{
-        	padding-right: 5px;
-        }
-        .container{
-            margin-top: 50px;
-            background: #ffffff;
-        }
-        .col-xs-12{
-            margin: 2% auto 0 auto;
-        }
-        .col-xs-12 ul li{
-            display: inline-block;
-            font-size: 16px;
-        }
-        .search{
-            margin: 2% 1% 2% 1%;
-        }
-        .item img{
-            width: 100%;
-            height: 200px;
-        }
-        .information{
-            margin-top: 4%;
-
-        }
-        .list{
-           border-top: 1px solid #dddddd;
-            margin-bottom: 1.5%;
-        }
-        .list:last-child{
-            border-bottom: 1px solid #dddddd;
-        }
-        .list a,.list span{
-            display: inline-block;
-            font-size: 18px;
-            line-height: 35px;
-            color: #333333;
-        }
-        .list a{
-        	width: 100%;
-        }
-        .list a:hover{
-        	text-decoration: none;
-        }
-        .list span{
-        	font-size: 12px;
-        }
-        #login{
-            height: 50px;
-            line-height: 50px;
-            font-size: 18px;
-        }
-
-        .article{
-            width: 86%;
-            padding-left: 0px;
-            padding-right: 0px;
-            margin: 0px;
-        }
-        .comment{
-            width: 14%;
-             padding-right: 0px;
-                padding-left: 0px;
-        }
-        .glyphicon-comment1{
-            width: 18px;
-            height: 18px;
-            position: absolute;
-            top: 25%;
-            background:url("images/ifgLisPl.gif") no-repeat center right;
-            background-size: 12px auto;
-
-        }
-    </style>
+    <link href="head.css" type="text/css" rel="stylesheet"/>
 
 </head>
 <body>
@@ -143,10 +42,10 @@
         <div class="row">
             <div class="col-xs-12 " style="margin-top:4%;">
                 <ul>
-                   <div class="col-xs-3 "><li><a href="buy.html">常识</a> </li></div>
-                    <div class="col-xs-3 "><li><a href="###">健康</a> </li></div>
-                     <div class="col-xs-3 "><li><a href="###">化学</a> </li></div>
-                      <div class="col-xs-3 "><li><a href="###">专区</a> </li></div>
+                   <div class="col-xs-3 "><li><a href="buy.html">常常识</a> </li></div>
+                    <div class="col-xs-3 "><li><a href="###">健康常</a> </li></div>
+                     <div class="col-xs-3 "><li><a href="###">化常学</a> </li></div>
+                      <div class="col-xs-3 "><li><a href="###">专常区</a> </li></div>
                 </ul>
             </div>
         </div>
@@ -154,10 +53,10 @@
         <div class="row">
             <div class="col-xs-12">
                 <ul>
-                    <div class="col-xs-3"><li><a href="###">常识</a> </li></div>
-                    <div class="col-xs-3"><li><a href="###">健康</a> </li></div>
-                    <div class="col-xs-3"><li><a href="###">化学</a> </li></div>
-                    <div class="col-xs-3"><li><a href="###">专区</a> </li></div>
+                    <div class="col-xs-3"><li><a href="###">常识常</a> </li></div>
+                    <div class="col-xs-3"><li><a href="###">健康常</a> </li></div>
+                    <div class="col-xs-3"><li><a href="###">化学常</a> </li></div>
+                    <div class="col-xs-3"><li><a href="###">专区常</a> </li></div>
                 </ul>
             </div>
         </div>
@@ -245,45 +144,45 @@
     <!-- 轮播图，其实就是广告区 -->
 
     <!-- 文章分区 -->
-    <div class="container-fluid information " style="margin: 0 4% 0 4%;">
-        <h4 style="color: #337AB7;">猜你喜欢</h4>
+    <div class="container-fluid information " >
+        <h4 >猜你喜欢</h4>
 
          <div class="row list" >
             <div class="col-xs-9 article">
                 <a href="###">黄瓜味薯很好哈哈哈哈</a>
             </div>
-            <div class="col-xs-3 comment"><a style="float: right;" href="http://www.baidu.com" style="text-decoration: none;"><span style="float: left;" class="number">224</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
+            <div class="col-xs-3 comment"><a  href="http://www.baidu.com" ><span  class="number">224</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
             <!--span中的class是留给count计算评论数的-->
         </div>
          <div class="row list" >
             <div class="col-xs-9 article">
                 <a href="###">黄瓜味道的薯片好哈哈哈哈</a>
             </div>
-            <div class="col-xs-3 comment"><a style="float: right;" href="http://www.baidu.com" style="text-decoration: none;"><span style="float: left;" class="number">24</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
+            <div class="col-xs-3 comment"><a  href="http://www.baidu.com" ><span  class="number">24</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
             <!--span中的class是留给count计算评论数的-->
         </div>
          <div class="row list" >
             <div class="col-xs-9 article">
                 <a href="###">黄瓜味道很好哈哈哈哈</a>
             </div>
-            <div class="col-xs-3 comment"><a style="float: right;" href="http://www.baidu.com" style="text-decoration: none;"><span style="float: left;" class="number">224</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
+            <div class="col-xs-3 comment"><a  href="http://www.baidu.com" ><span  class="number">224</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
             <!--span中的class是留给count计算评论数的-->
         </div>
          <div class="row list" >
             <div class="col-xs-9 article">
                 <a href="###">黄瓜味道的好哈哈哈哈</a>
             </div>
-            <div class="col-xs-3 comment"><a style="float: right;" href="http://www.baidu.com" style="text-decoration: none;"><span style="float: left;" class="number">24</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
+            <div class="col-xs-3 comment"><a href="http://www.baidu.com" ><span  class="number">24</span> <span  class=" glyphicon glyphicon-comment1"aria-hidden="true"></span></a></div>
             <!--span中的class是留给count计算评论数的-->
         </div>
 
-        <div class="row " style="padding-top: 2%;border-top: 1px solid #dddddd;">
-            <a href="http://www.baidu.com"><button class="btn btn-sm btn-default col-xs-11" style="margin: 0 2% 2%;border: none;" id="#"> 加载更多>>></button></a>
+        <div class="row " id="last">
+            <a href="http://www.baidu.com"><button class="btn btn-sm btn-default col-xs-11" id="#"> 加载更多>>></button></a>
         </div>
     </div>
     <!-- 文章分区 -->
     <!-- 友链，可以不用 -->
-    <div class="about container-fluid col-xs-11" style="margin: 2% auto">
+    <div class="about container-fluid col-xs-11">
         <div class="row">
             <span>友情链接：</span>
         </div>
@@ -291,12 +190,12 @@
     <!-- 友链，可以不用 -->
 
     <!-- 页脚 -->
-    <div class="about container-fluid col-xs-12" style="margin: 2% auto 0 auto;background: #679FFF">
+    <div class="about container-fluid col-xs-12 footer" >
         <div class="row">
-            <p style="text-align: center;line-height: 100%;padding-top: 4%"><span style="padding: 2% ">导航</span><span style="padding: 2%">客户端</span><span style="padding: 2% ">吐槽</span></p>
+            <p ><span>导航</span><span>客户端</span><span>吐槽</span></p>
         </div>
         <div class="row">
-            <p style="text-align: center;line-height: 100%">xxxx(粤ICP0000XXXX)</p>
+            <p>xxxx(粤ICP0000XXXX)</p>
         </div>
     </div>
     <!-- 页脚 -->
