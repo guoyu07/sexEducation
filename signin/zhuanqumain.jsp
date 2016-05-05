@@ -154,6 +154,7 @@
           color: #ff0000;
         }
         .text{
+				/*促销字体的颜色*/
           color: #D9D9D9;
           font-size: 1em;
           padding-left:4%;
@@ -192,6 +193,7 @@
             </div>
 
             <div class="container" style="width:52%;float:right;padding-left:0;padding-right:0;">
+							<%-- 这里是要修改的商品项的字体颜色 --%>
                 <div  class="row first_column" style="text-align:center;color:#9F5F9F;font-size:14px;">
                     <a href="<c:url value='/IndexServlet?method=enterCgshow&project_id=${mem.id}'/>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${mem.project_name}</a>
                 </div>
