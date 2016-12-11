@@ -1,3 +1,2 @@
-# webPage
-这是一个关于优化页面的测试
-基础学院的东西
+#This is the first time to build a webiste which base on the framework boostrap
+###The website is make for the school gdpu.
